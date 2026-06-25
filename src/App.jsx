@@ -19,8 +19,6 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-pink-200 via-purple-200 to-pink-300 relative overflow-hidden">
-      <audio src="/music.mp3" autoPlay loop preload="auto" />
-
       {/* live background hearts/candy/teddy */}
       <FloatingElements />
 
@@ -45,6 +43,7 @@ function App() {
       )}
 
       {showFinal && <FinalScreen onReplay={replay} />}
+      <audio src="song/music.mp3" autoPlay loop />
     </div>
   );
 }
