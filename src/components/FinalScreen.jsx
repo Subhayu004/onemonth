@@ -30,7 +30,7 @@ const FinalScreen = ({ onReplay }) => {
         </h1>
 
         <p className="text-2xl text-rose-600 mb-10">
-          Never ever thing you're alone I'm always there for you. And I love you... 🎉❤️
+          Never ever think you're alone I'm always there for you. And I love you... 🎉❤️
         </p>
 
         {/* Replay */}
